@@ -3,7 +3,7 @@
 # Getting started
 
 # laravel-repositories-adminlte
-Project Laravel Repositories withAdminLte
+Project Laravel Repositories with AdminLte
 
 ## Installation
 
