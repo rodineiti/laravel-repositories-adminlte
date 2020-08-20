@@ -43,3 +43,9 @@ Start the local development server
     php artisan serve
 
 You can now access the server at http://localhost:8000
+
+
+![image](https://user-images.githubusercontent.com/25492122/90826778-71b72a80-e311-11ea-9b50-c6879097c144.png)
+
+
+![image](https://user-images.githubusercontent.com/25492122/90826862-8e536280-e311-11ea-9f49-36377d302b47.png)
