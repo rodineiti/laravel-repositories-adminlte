@@ -5,7 +5,7 @@
 @section('content_header')
     <h1>Visualizando Produto: {{$product->title}}</h1>
     <ol class="breadcrumb">
-        <li><a href="{{route('home')}}" title="dashboard">Dashboard</a></li>
+        <li><a href="{{route('admin.home')}}" title="dashboard">Dashboard</a></li>
         <li><a href="{{route('products.index')}}" title="products" class="active">Produtos</a></li>
         <li><a href="{{route('products.show', $product->id)}}" title="show" class="active">Visualizar</a></li>
     </ol>

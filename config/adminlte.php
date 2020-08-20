@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'Laravel Repositories',
+    'title' => 'DEV LARACMS',
 
     'title_prefix' => '',
 
@@ -30,9 +30,9 @@ return [
     |
     */
 
-    'logo' => '<b>Laravel</b>REP',
+    'logo' => '<b>DEV</b>LARACMS',
 
-    'logo_mini' => '<b>R</b>EP',
+    'logo_mini' => '<b>C</b>MS',
 
     /*
     |--------------------------------------------------------------------------
@@ -106,7 +106,7 @@ return [
     |
     */
 
-    'dashboard_url' => 'home',
+    'dashboard_url' => 'admin/home',
 
     'logout_url' => 'logout',
 
@@ -132,12 +132,48 @@ return [
         ],
         ['header' => 'main_navigation'],
         [
+            'text' => 'Dashboard',
+            'url'  => 'admin/home',
+            'icon' => 'fas fa-fw fa-list',
+        ],
+        [
+            'text' => 'Usuários',
+            'url'  => 'admin/users',
+            'icon' => 'fas fa-fw fa-list',
+            'can'  => 'users-crud',
+        ],
+        [
             'text' => 'Categorias',
             'url'  => 'admin/categories',
+            'icon' => 'fas fa-fw fa-list',
         ],
         [
             'text' => 'Produtos',
             'url'  => 'admin/products',
+            'icon' => 'fas fa-fw fa-list',
+        ],
+        [
+            'text' => 'Páginas',
+            'url'  => 'admin/pages',
+            'icon' => 'fas fa-fw fa-list',
+            'can'  => 'pages-crud',
+        ],
+        [
+            'text' => 'Sub Páginas',
+            'url'  => 'admin/subpages',
+            'icon' => 'fas fa-fw fa-list',
+            'can'  => 'pages-crud',
+        ],
+        'Configurações',
+        [
+            'text' => 'Configurações do site',
+            'url' => 'admin/settings',
+            'icon' => 'fas fa-fw fa-cog',
+        ],
+        [
+            'text' => 'Perfil',
+            'url' => 'admin/profile',
+            'icon' => 'fas fa-fw fa-user',
         ],
     ],
 

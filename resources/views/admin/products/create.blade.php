@@ -5,7 +5,7 @@
 @section('content_header')
     <h1>Adicionar Produto</h1>
     <ol class="breadcrumb">
-        <li><a href="{{route('home')}}" title="dashboard">Dashboard</a></li>
+        <li><a href="{{route('admin.home')}}" title="dashboard">Dashboard</a></li>
         <li><a href="{{route('products.index')}}" title="products" class="active">Produtos</a></li>
         <li><a href="{{route('products.create')}}" title="create" class="active">Adicionar</a></li>
     </ol>

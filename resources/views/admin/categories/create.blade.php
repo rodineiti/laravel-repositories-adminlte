@@ -5,7 +5,7 @@
 @section('content_header')
     <h1>Adicionar Categoria</h1>
     <ol class="breadcrumb">
-        <li><a href="{{route('home')}}" title="dashboard">Dashboard</a></li>
+        <li><a href="{{route('admin.home')}}" title="dashboard">Dashboard</a></li>
         <li><a href="{{route('categories.index')}}" title="categories" class="active">Categorias</a></li>
         <li><a href="{{route('categories.create')}}" title="create" class="active">Adicionar</a></li>
     </ol>

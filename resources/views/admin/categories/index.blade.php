@@ -6,7 +6,7 @@
     <h1>Categorias</h1>
     <ol class="breadcrumb">
         <li>
-            <a href="{{route('home')}}" title="dashboard">Dashboard</a>
+            <a href="{{route('admin.home')}}" title="dashboard">Dashboard</a>
         </li>
         <li>
             <a href="{{route('categories.index')}}" title="categories" class="active">Categorias</a>

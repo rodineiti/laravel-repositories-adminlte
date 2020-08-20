@@ -6,7 +6,7 @@
     <h1>Produtos</h1>
     <ol class="breadcrumb">
         <li>
-            <a href="{{route('home')}}" title="dashboard">Dashboard</a>
+            <a href="{{route('admin.home')}}" title="dashboard">Dashboard</a>
         </li>
         <li>
             <a href="{{route('products.index')}}" title="products" class="active">Produtos</a>
@@ -33,7 +33,7 @@
                             @endforeach
                         </select>
     					<input type="text" name="item" id="item" placeholder="Texto" class="form-control" value="{{$filters['item'] ?? ''}}">
-    					<input type="number" name="price" id="price" placeholder="Preço" class="form-control" value="{{$filters['price'] ?? ''}}">                        
+    					<input type="number" name="price" id="price" placeholder="Preço" class="form-control" value="{{$filters['price'] ?? ''}}">
     					<button type="submit" class="btn btn-default">Buscar</button>
     				</form>
 
