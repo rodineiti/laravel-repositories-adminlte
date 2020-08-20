@@ -83,55 +83,12 @@
                     <!-- /.box-header -->
                     <div class="box-body">
                         <div class="row">
-                            <div class="col-md-8">
+                            <div class="col-md-12">
                                 <div class="chart">
                                     <!-- Sales Chart Canvas -->
                                     <canvas id="pagePie" style="height: 180px; width: 703px;" height="180" width="703"></canvas>
                                 </div>
                                 <!-- /.chart-responsive -->
-                            </div>
-                            <!-- /.col -->
-                            <div class="col-md-4">
-                                <p class="text-center">
-                                    <strong>Páginas mais visitadas</strong>
-                                </p>
-
-                                <div class="progress-group">
-                                    <span class="progress-text">Add Products to Cart</span>
-                                    <span class="progress-number"><b>160</b></span>
-
-                                    <div class="progress sm">
-                                        <div class="progress-bar progress-bar-aqua" style="width: 80%"></div>
-                                    </div>
-                                </div>
-                                <!-- /.progress-group -->
-                                <div class="progress-group">
-                                    <span class="progress-text">Complete Purchase</span>
-                                    <span class="progress-number"><b>310</b></span>
-
-                                    <div class="progress sm">
-                                        <div class="progress-bar progress-bar-red" style="width: 80%"></div>
-                                    </div>
-                                </div>
-                                <!-- /.progress-group -->
-                                <div class="progress-group">
-                                    <span class="progress-text">Visit Premium Page</span>
-                                    <span class="progress-number"><b>480</b></span>
-
-                                    <div class="progress sm">
-                                        <div class="progress-bar progress-bar-green" style="width: 80%"></div>
-                                    </div>
-                                </div>
-                                <!-- /.progress-group -->
-                                <div class="progress-group">
-                                    <span class="progress-text">Send Inquiries</span>
-                                    <span class="progress-number"><b>250</b></span>
-
-                                    <div class="progress sm">
-                                        <div class="progress-bar progress-bar-yellow" style="width: 80%"></div>
-                                    </div>
-                                </div>
-                                <!-- /.progress-group -->
                             </div>
                             <!-- /.col -->
                         </div>
