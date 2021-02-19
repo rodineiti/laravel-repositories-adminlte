@@ -164,6 +164,48 @@ return [
             'icon' => 'fas fa-fw fa-list',
             'can'  => 'pages-crud',
         ],
+        [
+            'text' => 'Instituições',
+            'url'  => 'admin/institutions',
+            'icon' => 'fas fa-fw fa-list',
+            'can'  => 'pages-crud',
+        ],
+        [
+            'text' => 'Unidades de Ensino',
+            'url'  => 'admin/units',
+            'icon' => 'fas fa-fw fa-list',
+            'can'  => 'pages-crud',
+        ],
+        [
+            'text' => 'Tipos de oferta',
+            'url'  => 'admin/offertypes',
+            'icon' => 'fas fa-fw fa-list',
+            'can'  => 'pages-crud',
+        ],
+        [
+            'text' => 'Disciplinas',
+            'url'  => 'admin/disciplines',
+            'icon' => 'fas fa-fw fa-list',
+            'can'  => 'pages-crud',
+        ],
+        [
+            'text' => 'Assuntos',
+            'url'  => 'admin/subjects',
+            'icon' => 'fas fa-fw fa-list',
+            'can'  => 'pages-crud',
+        ],
+        [
+            'text' => 'Imagens',
+            'url'  => 'admin/images',
+            'icon' => 'fas fa-fw fa-list',
+            'can'  => 'pages-crud',
+        ],
+        [
+            'text' => 'Provas',
+            'url'  => 'admin/tests',
+            'icon' => 'fas fa-fw fa-list',
+            'can'  => 'pages-crud',
+        ],
         'Configurações',
         [
             'text' => 'Configurações do site',
@@ -281,6 +323,33 @@ return [
                     'type' => 'js',
                     'asset' => false,
                     'location' => '//cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js',
+                ],
+            ],
+        ],
+        [
+            'name' => 'Simplemde',
+            'active' => true,
+            'files' => [
+                [
+                    'type' => 'css',
+                    'asset' => false,
+                    'location' => '//cdn.jsdelivr.net/simplemde/latest/simplemde.min.css',
+                ],
+                [
+                    'type' => 'js',
+                    'asset' => false,
+                    'location' => '//cdn.jsdelivr.net/simplemde/latest/simplemde.min.js',
+                ],
+            ],
+        ],
+        [
+            'name' => 'Ckeditor',
+            'active' => true,
+            'files' => [
+                [
+                    'type' => 'js',
+                    'asset' => false,
+                    'location' => '//cdn.ckeditor.com/4.16.0/standard/ckeditor.js',
                 ],
             ],
         ],
