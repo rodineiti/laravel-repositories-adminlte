@@ -1,10 +1,5 @@
 <?php
 
-/*
-*
-* Class with QueryBuilder
-*/
-
 namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
